@@ -17,3 +17,23 @@
 // want one onclick to work for every saveBtn don't want a separate one for each
 //use class names not ID for the onlick part
 // see office hours for tuesday on how to setup onclick
+
+// console.log('moment', moment(), hour())
+
+// maybe make an array and set var names to an int to compare with moment time??
+
+var time = moment().format('hh');
+var nine = $('#9')
+
+$('.saveBtn').on('click', function() {
+
+    localStorage.setItem($(this).attr('name'), $('#' + $(this).attr('name')).val());
+
+});
+
+if (time > (nine)) {
+
+    $(nine).addClass('past')
+    console.log('getting assigned class?', nine);
+
+}
