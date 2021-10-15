@@ -19,7 +19,7 @@ function timeTracking() {
         // takes the id string for each time block, turns it into an int, splits it into an array, and grabs the number from the array
         var calendarTime = parseInt($(this).attr('id').split('hour')[1]);
 
-        // if statement to compare current time to claendar block number and change background color accordingly
+        // if statement to compare current time to calendar block number and change background color accordingly
         if (calendarTime < currentTime) {
 
             $(this).addClass('past');
