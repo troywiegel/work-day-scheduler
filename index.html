@@ -6,75 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Work Day Scheduler</title>
 </head>
 
 <body>
     <header class="jumbotron">
-        <h1 class="display-3 row justify-content-center">Work Day Scheduler</h1>
-        <p class="lead row justify-content-center">A simple calendar app for scheduling your work day</p>
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <br><br>
+        <p class="lead">A simple calendar app for scheduling your work day</p>
         <p id="currentDay" class="lead"></p>
     </header>
 
     <div class="container">
-        <div id="hour-9" class="row align-items-center border border-dark">
+        <div id="hour9" class="row time-block">
             <div class="col-1 hour">9am</div>
             <textarea id="9" class="col-10 description"></textarea>
-            <button name="9" class="btn saveBtn col-1">&#9989;</button>
+            <button name="9" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-10" class="row align-items-center border border-dark">
+        <div id="hour10" class="row time-block">
             <div class="col-1 hour">10am</div>
             <textarea id="10" class="col-10 description"></textarea>
-            <button name="10" class="btn saveBtn col-1">&#9989;</button>
+            <button name="10" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-11" class="row align-items-center border border-dark">
+        <div id="hour11" class="row time-block">
             <div class="col-1 hour">11am</div>
             <textarea id="11" class="col-10 description"></textarea>
-            <button name="11" class="btn saveBtn col-1">&#9989;</button>
+            <button name="11" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-12" class="row align-items-center border border-dark">
+        <div id="hour12" class="row time-block">
             <div class="col-1 hour">12pm</div>
             <textarea id="12" class="col-10 description"></textarea>
-            <button name="12" class="btn saveBtn col-1">&#9989;</button>
+            <button name="12" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-13" class="row align-items-center border border-dark">
+        <div id="hour13" class="row time-block">
             <div class="col-1 hour">1pm</div>
             <textarea id="13" class="col-10 description"></textarea>
-            <button name="13" class="btn saveBtn col-1">&#9989;</button>
+            <button name="13" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-14" class="row align-items-center border border-dark">
+        <div id="hour14" class="row time-block">
             <div class="col-1 hour">2pm</div>
             <textarea id="14" class="col-10 description"></textarea>
-            <button name="14" class="btn saveBtn col-1">&#9989;</button>
+            <button name="14" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-15" class="row align-items-center border border-dark">
+        <div id="hour15" class="row time-block">
             <div class="col-1 hour">3pm</div>
             <textarea id="15" class="col-10 description"></textarea>
-            <button name="15" class="btn saveBtn col-1">&#9989;</button>
+            <button name="15" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-16" class="row align-items-center border border-dark">
+        <div id="hour16" class="row time-block">
             <div class="col-1 hour">4pm</div>
             <textarea id="16" class="col-10 description"></textarea>
-            <button name="16" class="btn saveBtn col-1">&#9989;</button>
+            <button name="16" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
 
-        <div id="hour-17" class="row align-items-center border border-dark">
+        <div id="hour17" class="row time-block">
             <div class="col-1 hour">5pm</div>
             <textarea id="17" class="col-10 description"></textarea>
-            <button name="17" class="btn saveBtn col-1">&#9989;</button>
+            <button name="17" class="btn saveBtn col-1 fas fa-save"></button>
         </div>
     </div>
 
